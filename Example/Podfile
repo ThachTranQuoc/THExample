@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'THExample_Example', :exclusive => true do
+  pod 'THExample', :path => '../'
+end
+
+target 'THExample_Tests', :exclusive => true do
+  pod 'THExample', :path => '../'
+
+  
+end
